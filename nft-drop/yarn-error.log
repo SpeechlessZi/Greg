@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Rt-PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Rt-PC\Documents\Casters\greg\node_modules\.bin;C:\Users\Rt-PC\Documents\Casters\node_modules\.bin;C:\Users\Rt-PC\Documents\node_modules\.bin;C:\Users\Rt-PC\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\Rt-PC\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Brewtarget-2.3.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Rt-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Rt-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\steghide;C:\Users\Rt-PC\AppData\Roaming\npm;C:\Users\Rt-PC\AppData\Local\npm-cache\_npx\8d2f9c029655e602\node_modules\.bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  19.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@react-icons/all-files/-/all-files-4.1.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Rt-PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:833:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:565:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "nft-drop",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@thirdweb-dev/react": "^3",
+      "@thirdweb-dev/sdk": "^3",
+      "ethers": "^5.6.8",
+      "next": "^13",
+      "react": "^18.2",
+      "react-dom": "^18.2"
+    },
+    "devDependencies": {
+      "@types/node": "^17.0.21",
+      "@types/react": "^17.0.40",
+      "eslint": "^8.11.0",
+      "eslint-config-next": "^13",
+      "typescript": "^4.6.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
